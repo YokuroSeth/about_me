@@ -1,0 +1,92 @@
+/* caveat-regular - latin_cyrillic */
+@font-face {
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+        url('../fonts/caveat-v10-latin_cyrillic-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/caveat-v10-latin_cyrillic-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* caveat-700 - latin_cyrillic */
+@font-face {
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+        url('../fonts/caveat-v10-latin_cyrillic-700.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/caveat-v10-latin_cyrillic-700.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Caveat';
+    margin: 0;
+}
+
+body {
+    background: url(../img/bg.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.round {
+    margin-bottom: 20px;
+    min-width: 200px;
+    min-height: 200px;
+    border-radius: 50%;
+    background: url(../img/Фотография.jpg) no-repeat 0 -25px;
+    background-size: auto 300px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.name {
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.about {
+    margin-bottom: 15px;
+    max-width: 500px;
+    font-size: 24px;
+}
+
+.about-text {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.social-links {
+    min-width: 400px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+.social-link {
+    display: flex;
+    margin-bottom: 5px;
+    vertical-align: middle;
+    text-decoration: none;
+    color: black;
+}
+
+.social-icon {
+    margin-right: 5px;
+}
